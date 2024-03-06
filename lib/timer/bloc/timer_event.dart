@@ -15,7 +15,9 @@ class TimerPaused extends TimerEvent {
   const TimerPaused();
 }
 
-class TimerResumed extends TimerEvent {}
+class TimerResumed extends TimerEvent {
+  const TimerResumed();
+}
 
 class TimerReset extends TimerEvent {
   const TimerReset({this.duration});
