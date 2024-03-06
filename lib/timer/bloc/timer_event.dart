@@ -28,13 +28,3 @@ class _TimerTicked extends TimerEvent {
   _TimerTicked({required this.duration});
   final int duration;
 }
-
-void method(TimerEvent timerEvent) {
-  switch (timerEvent) {
-    case TimerStarted a:
-      print('${a.duration}');
-      break;
-    default:
-      print('hii');
-  }
-}
